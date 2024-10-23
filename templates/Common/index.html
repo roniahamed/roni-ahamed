@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Add meta tag and link -->
+
+    {% include "./meta_link.html" %}
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+    <!-- Header Code -->
+
+    {% include "./header.html" %}
+
+
+    <!-- Content Write -->
+
+    {% block content %} <!-- Add roniahamed website another content --> {% endblock content %}
+
+    <!-- Footer Part -->
+    {% include "./footer.html" %}
+
+    <!-- JS File -->
+    {% include "./scripts.html" %}
+
+
+</body>
+
+</html>
